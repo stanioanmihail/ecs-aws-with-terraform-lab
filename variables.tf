@@ -9,6 +9,10 @@ variable "aws_profile" {
   
 }
 
+variable "vpc_name" {
+  type = string
+}
+
 variable "ecs_cluster_name" {
     type = string
     default = "ims_nginx_ecs_cluster"
